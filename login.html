@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W3CRM Customer Relationship Management</title>
+    <!-- Fonts -->
+    <link rel="stylesheet" href="assets/Fonts/stylesheet.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/CSS/style.css">
+    <!-- iconify-Icons -->
+    <script src="https://code.iconify.design/iconify-icon/2.0.0/iconify-icon.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Login Form -->
+    <section class="sign-in d-flex f-wrap">
+        <div class="w-6">
+            <div class="form container-500 text-center d-flex f-wrap align-center justify-center">
+                <div>
+                    <h3>Sign In</h3>
+                    <p>Sign in to your account to start using W3CRM</p>
+                    <form action="index.html">
+                        <label class="f-left">Email</label>
+                        <input type="email" value="hello@example.com" class="w-100">
+                        <label class="f-left">Password</label>
+                        <input type="password" value="123456" class="w-100">
+                        <div class="f-left">
+                            <input type="checkbox">
+                            <label>Remember my preferance</label>
+                        </div>
+                        <a class="f-right">Forgot Password?</a>
+                        <button class="sign-btn" onclick="fun()">Sign In</button>
+                    </form>
+                    <p class="login-title">
+                        <span class="text-center" style="width: 100%;">Or Continue With</span>
+                    </p>
+                    <div class="d-flex f-wrap justify-center other-login">
+                        <div class="facebook" style="background-color: #3b5998;"><iconify-icon
+                                icon="ri:facebook-fill"></iconify-icon></div>
+                        <div class="google" style="background-color: #db4439;"><iconify-icon
+                                icon="la:google-plus"></iconify-icon></div>
+                        <div class="linkedin" style="background-color: #007bb6;"><iconify-icon
+                                icon="flowbite:linkedin-solid"></iconify-icon></div>
+                        <div class="twitter" style="background-color: #1da1f2;"><iconify-icon
+                                icon="mdi:twitter"></iconify-icon></div>
+                    </div>
+                    <p class="text-center">Not Registered? <a>Register</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="w-6">
+            <div class="d-flex f-wrap align-center" style="height: 100vh; background-color: #2c2c2c;">
+                <div class="container-500 text-center login-page">
+                    <img src="assets/images/logi-white.png" alt="logo">
+                    <p>CRM dashboard uses line charts to visualize customer-related metrics and trends over time.</p>
+                </div>
+                <img src="assets/images/login.png" alt="login" style="margin-left: 60px;">
+            </div>
+        </div>
+    </section>
+
+    <!-- JQuery -->
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <!-- Script -->
+    <script>
+        function fun() {
+            var a = document.getElementById('email').value;
+            var b = document.getElementById('password').value;
+
+            if (a == "") {
+                alert('Please enter valid Email ID.');
+            } else if (b == "") {
+                alert('Please enter valid Email ID and Password');
+            }
+        }
+    </script>
+</body>
+
+</html>

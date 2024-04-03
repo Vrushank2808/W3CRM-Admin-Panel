@@ -1,0 +1,197 @@
+@media(max-width:1400px) {}
+
+@media(max-width:1200px) {
+    .grid {
+        grid-template-rows: 112px 112px 442px 410px 610px 610px 554px !important;
+    }
+
+    .t-deposit {
+        grid-column: span 8 !important;
+        grid-row: 1 / span 1 !important;
+        width: 100% !important;
+    }
+
+    .all-projects {
+        grid-column: span 8 !important;
+        grid-row: 1 / span 1 !important;
+        width: 100% !important;
+    }
+
+    .t-expenses {
+        grid-column: span 8 !important;
+        grid-row: 2 / span 1 !important;
+    }
+
+    .total-d {
+        grid-column: span 8 !important;
+        grid-row: 2 / span 1 !important;
+    }
+
+    .project-overview {
+        grid-column: span 8 !important;
+        grid-row: 3 / span 1 !important;
+    }
+
+    .todo-list {
+        grid-column: span 8 !important;
+        grid-row: 3 / span 1 !important;
+    }
+
+    .t-earning {
+        grid-column: span 16 !important;
+        grid-row: 7 / span 1 !important;
+    }
+
+    .a-projects {
+        grid-column: span 8 !important;
+        grid-row: 4 / span 1 !important;
+    }
+
+    .a-user {
+        grid-column: span 8 !important;
+        grid-row: 4 / span 1 !important;
+    }
+
+    .chat {
+        grid-column: span 8 !important;
+        grid-row: 5 / span 1 !important;
+    }
+
+    .b-sale {
+        grid-column: span 16 !important;
+        grid-row: 6 / span 1 !important;
+    }
+
+    .p-status {
+        grid-column: span 8 !important;
+        grid-row: 5 / span 1 !important;
+    }
+
+}
+
+@media(max-width:992px) {
+    .grid {
+        grid-template-rows: 112px 112px 442px 442px 410px 410px 610px 610px 610px 554px !important;
+    }
+
+    .project-overview {
+        grid-column: span 16 !important;
+        grid-row: 3 / span 1 !important;
+    }
+
+    .todo-list {
+        grid-column: span 16 !important;
+        grid-row: 4 / span 1 !important;
+    }
+
+    .t-earning {
+        grid-column: span 16 !important;
+        grid-row: 10 / span 1 !important;
+    }
+
+    .a-projects {
+        grid-column: span 16 !important;
+        grid-row: 5 / span 1 !important;
+    }
+
+    .a-user {
+        grid-column: span 16 !important;
+        grid-row: 6 / span 1 !important;
+    }
+
+    .chat {
+        grid-column: span 16 !important;
+        grid-row: 7 / span 1 !important;
+    }
+
+    .b-sale {
+        grid-column: span 16 !important;
+        grid-row: 9 / span 1 !important;
+    }
+
+    .p-status {
+        grid-column: span 16 !important;
+        grid-row: 8 / span 1 !important;
+    }
+
+}
+
+@media(max-width:768px) {
+    .s-icon {
+        display: none;
+    }
+
+    .search {
+        display: none;
+    }
+}
+
+@media(max-width:576px) {
+
+    .grid {
+        grid-template-rows: 112px 112px 112px 112px 442px 442px 410px 410px 610px 500px 610px 554px !important;
+    }
+
+    .t-deposit {
+        grid-column: span 16 !important;
+        grid-row: 1 / span 1 !important;
+        width: 100% !important;
+    }
+
+    .all-projects {
+        grid-column: span 16 !important;
+        grid-row: 2 / span 1 !important;
+        width: 100% !important;
+    }
+
+    .t-expenses {
+        grid-column: span 16 !important;
+        grid-row: 3 / span 1 !important;
+    }
+
+    .total-d {
+        grid-column: span 16 !important;
+        grid-row: 4 / span 1 !important;
+    }
+
+    .project-overview {
+        grid-column: span 16 !important;
+        grid-row: 5 / span 1 !important;
+    }
+
+    .todo-list {
+        grid-column: span 16 !important;
+        grid-row: 6 / span 1 !important;
+    }
+
+    .t-earning {
+        grid-column: span 16 !important;
+        grid-row: 12 / span 1 !important;
+    }
+
+    .a-projects {
+        grid-column: span 16 !important;
+        grid-row: 7 / span 1 !important;
+    }
+
+    .a-user {
+        grid-column: span 16 !important;
+        grid-row: 8 / span 1 !important;
+    }
+
+    .chat {
+        grid-column: span 16 !important;
+        grid-row: 9 / span 1 !important;
+    }
+
+    .b-sale {
+        grid-column: span 16 !important;
+        grid-row: 11 / span 1 !important;
+    }
+
+    .p-status {
+        grid-column: span 16 !important;
+        grid-row: 10 / span 1 !important;
+    }
+
+}
